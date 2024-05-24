@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="code-theme.css" />
+    <link rel="stylesheet" href="style.css" />
+    <script
+      type="text/javascript"
+      src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"
+    ></script>
+    <script type="text/javascript">
+      (function () {
+        emailjs.init({
+          publicKey: "M2A5uzgWF51r757Y-",
+        });
+      })();
+    </script>
+    <title>Khadidja Boukerram's Portfolio</title>
+  </head>
+  <body>
+    <!-----------------NAVIGATEUR------------------->
+    <nav>
+      <ul>
+        <li>
+          <a href="#about">About</a>
+        </li>
+        <li>
+          <a href="#education">Education</a>
+        </li>
+
+        <li>
+          <a href="#projects">Projects</a>
+        </li>
+        <li>
+          <a href="#contact">Contact</a>
+        </li>
+      </ul>
+    </nav>
+
+    <!-----------------LE CONTENUE DE LA PAGE------------------->
+
+    <div class="section-container">
+
+
+      <!-----------------LANDING------------------->
+
+      <section id="landing">
+        <div>
+          <div class="typewriter">
+            <h1>Hey, <span>I'm Khadidja Boukerram </span></h1>
+          </div>
+          <p>2nd year computer science student</p>
+        </div>
+        <div id="profile-picture"></div>
+      </section>
+
+
+      <!-----------------ABOUT------------------->
+
+      <section id="about">
+        <h1 id="section-name">About me</h1>
+        <pre class="code-block">
+          <code id="code" class="language-javascript"></code>
+        </pre>
+      </section>
+
+
+      <!-----------------EDUCATION------------------->
+
+      <section id="education">
+        <h1 id="section-name">Education</h1>
+        <div class="timeline">
+          <div class="outer">
+            <!-----------PREMIERE ANNEE-------------->
+            <div class="card">
+              <div class="info">
+                <h4 class="title">
+                  <span>First year:</span> Computer science 
+                </h4>
+                <p>
+                  Studied computer science and mathematics at the University of
+                  Béjaia in Algeria. The course covered a range of topics
+                  including programming, algorithms, and data structures.
+                </p>
+              </div>
+            </div>
+            <!-----------DEUXIEME ANNEE-------------->
+            <div class="card">
+              <div class="info">
+                <h4 class="title">
+                  <span> Second year:</span> Computer science
+                </h4>
+                <p>
+                  Currently studying computer science at the 
+                  University of Béjaia. The course
+                  covers a range of topics including software development,
+                  databases, and web development.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+
+      <!-----------------PROJECTS------------------->
+
+      <section id="projects">
+        <h1 id="section-name">Projects</h1>
+        <div class="container">
+          <!-------------PONG------------->
+          <div class="project">
+            <img src="pong.png" alt="Pong game" class="project-image" />
+            <div>
+              <h3 class="project-title">Pong game</h3>
+              <p class="project-description">
+                A pong game developed using C and SDL2 library. The game
+                features a player vs AI mode. The AI
+                uses a simple algorithm to track the ball and move the paddle
+                accordingly.
+              </p>
+              <div class="tech-stack">
+                <span class="tech">C</span>
+                <span class="tech">SDL2</span>
+              </div>
+              <a
+                href="https://github.com/Khadidjacodz/pong-game"
+                class="project-link"
+                >View Project</a
+              >
+            </div>
+          </div>
+          <!-------------SNAKE------------->
+          <div class="project">
+            <img
+              src="snake.png"
+              alt="Snake game"
+              class="project-image"
+            />
+            <div>
+              <h3 class="project-title">Snake game</h3>
+              <p class="project-description">A snake game developed using C.</p>
+              <div class="tech-stack">
+                <span class="tech">C</span>
+              </div>
+              <a
+                href="https://github.com/khadidjacodz/snake-game"
+                class="project-link"
+                >View Project</a
+              >
+            </div>
+          </div>
+        </div>
+      </section>
+
+
+      <!-----------------CONTACT------------------->
+
+      <section id="contact">
+        <h1 id="section-name">Contact</h1>
+        <div class="contact-container">
+          <div class="form-card1">
+            <div class="form-card2">
+              <form class="form" onsubmit="event.preventDefault();">
+                <p class="form-heading">Get In Touch</p>
+                <div class="socials">
+                  <!-----------INSTAGRAM---------->
+                  <a
+                    href="https://www.instagram.com/khed__oudj/"
+                    class="social-link"
+                    ><svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="40"
+                      height="40"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      stroke="currentColor"
+                      stroke-width="2"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      class="feather feather-instagram"
+                    >
+                      <rect
+                        x="2"
+                        y="2"
+                        width="20"
+                        height="20"
+                        rx="5"
+                        ry="5"
+                      ></rect>
+                      <path
+                        d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"
+                      ></path>
+                      <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line>
+                    </svg>
+                  </a>
+
+                  <!-----------FACEBOOK---------->
+                  <a
+                    href="https://www.facebook.com/profile.php?id=100069484741613&mibextid=LQQJ4d"
+                    class="social-link"
+                    ><svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="40"
+                      height="40"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      stroke="currentColor"
+                      stroke-width="2"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      class="feather feather-facebook"
+                    >
+                      <path
+                        d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"
+                      ></path>
+                    </svg>
+                  </a>
+                  <!-----------LINKEDIN---------->
+                  <a
+                    href="https://dz.linkedin.com/in/khadidja-boukerram-4a21612b4"
+                    class="social-link"
+                    ><svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="40"
+                      height="40"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      stroke="currentColor"
+                      stroke-width="2"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      class="feather feather-linkedin"
+                    >
+                      <path
+                        d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"
+                      ></path>
+                      <rect x="2" y="9" width="4" height="12"></rect>
+                      <circle cx="4" cy="4" r="2"></circle>
+                    </svg>
+                  </a>
+                  <!-----------GITHUB---------->
+                  <a
+                    href="https://www.github.com/khadidjacodz"
+                    class="social-link"
+                    ><svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="40"
+                      height="40"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      stroke="currentColor"
+                      stroke-width="2"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      class="feather feather-github"
+                    >
+                      <path
+                        d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"
+                      ></path>
+                    </svg>
+                  </a>
+                </div>
+                <!------------messagerie------------->
+                <div class="form-field">
+                  <input
+                    id="name"
+                    required=""
+                    placeholder="Name"
+                    name="name"
+                    class="input-field"
+                    type="text"
+                  />
+                </div>
+
+                <div class="form-field">
+                  <input
+                    id="email"
+                    required=""
+                    placeholder="Email"
+                    name="email"
+                    class="input-field"
+                    type="email"
+                    aria-errormessage="Invalid email address"
+                  />
+                </div>
+
+                <div class="form-field">
+                  <input
+                    id="subject"
+                    required=""
+                    placeholder="Subject"
+                    name="subject"
+                    class="input-field"
+                    type="text"
+                    maxlength="40"
+                  />
+                </div>
+
+                <div class="form-field">
+                  <textarea
+                    id="message"
+                    required
+                    placeholder="Message"
+                    cols="30"
+                    rows="3"
+                    maxlength="100"
+                    class="input-field"
+                  ></textarea>
+                </div>
+
+                <button
+                  class="sendMessage-btn"
+                  id="submit"
+                  onclick="sendEmail()"
+                >
+                  Send
+                </button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+  </body>
+  <style>
+    html{
+      scroll-behavior: smooth;
+    }
+  </style>
+  <script src="app.js"></script>
+  <script
+    src="https://cdn.jsdelivr.net/npm/prismjs@latest/prism.js"
+    defer
+  ></script>
+</html>
